@@ -1,0 +1,54 @@
+﻿
+.b1{
+height: 20px;
+width: 400px;
+}
+.b2{
+background-color: #c8a2c8;
+height: 150px;
+position:relative;
+}
+
+.b4{
+background-color: gray;
+width: 50px;
+height: 5px;
+}
+.b5{
+font-size: 25px;
+text-decoration: none;
+color: black;
+}
+.b5:hover{
+color: yellow;
+}
+button{
+background: #c8a2c8;
+border-radius: 50%;
+width: 150px;
+height: 70px;
+}
+.photo{
+width: 380px;
+height: 500px;
+}
+.plush{
+width: 200px;
+height: 300px;
+margin-right: 10px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+.photo{
+display: none;
+}
+}
+
+
+
+
+
+
+
+
+
